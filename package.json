@@ -16,18 +16,21 @@
     "datatables": "^1.10.12",
     "datatables-bootstrap": "^0.0.1",
     "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-htmlmin": "^2.0.0",
     "jquery": "^2.2.4",
     "jquery-gotop": "^1.1.2",
     "jquery-lazyload": "^1.9.7",
     "laravel-elixir": "^5.0.0",
     "noty": "^2.3.8",
-    "nprogress": "^0.2.0"
+    "nprogress": "^0.2.0",
+    "snyk": "^1.105.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -43,5 +46,6 @@
   "bugs": {
     "url": "https://github.com/IvanSostarko/laravel-5-2-cook-book/issues"
   },
-  "homepage": "https://github.com/IvanSostarko/laravel-5-2-cook-book#readme"
+  "homepage": "https://github.com/IvanSostarko/laravel-5-2-cook-book#readme",
+  "snyk": true
 }
