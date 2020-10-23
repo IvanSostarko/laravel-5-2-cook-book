@@ -16,7 +16,7 @@
     "datatables": "^1.10.12",
     "datatables-bootstrap": "^0.0.1",
     "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-htmlmin": "^2.0.0",
     "jquery": "^2.2.4",
     "jquery-gotop": "^1.1.2",
